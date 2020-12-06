@@ -9,11 +9,12 @@ import javax.swing.JSpinner;
 import javax.swing.SpinnerNumberModel;
 
 import com.oms.bean.Media;
+import com.oms.modules.abtractdata.controller.ADataPageController;
+import com.oms.modules.abtractdata.gui.ADataListPane;
+import com.oms.modules.abtractdata.gui.ADataSinglePane;
 import com.oms.modules.media.controller.UserMediaPageController;
 
-import abstractdata.ADataListPane;
-import abstractdata.ADataPageController;
-import abstractdata.ADataSinglePane;
+
 
 @SuppressWarnings("serial")
 public class UserMediaListPane extends ADataListPane<Media>{

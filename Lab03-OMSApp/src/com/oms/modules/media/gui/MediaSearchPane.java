@@ -5,7 +5,9 @@ import java.util.Map;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-import abstractdata.ADataSearchPane;
+import com.oms.modules.abtractdata.gui.ADataSearchPane;
+
+
 
 @SuppressWarnings("serial")
 public class MediaSearchPane extends ADataSearchPane {

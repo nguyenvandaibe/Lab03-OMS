@@ -10,7 +10,9 @@ import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JPanel;
 
-import abstractdata.IDataManageController;
+import com.oms.modules.abtractdata.controller.IDataManageController;
+
+
 
 @SuppressWarnings("serial")
 public abstract class ADataEditDialog<T> extends JDialog {

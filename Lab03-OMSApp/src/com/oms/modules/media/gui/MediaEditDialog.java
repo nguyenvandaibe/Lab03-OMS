@@ -4,9 +4,10 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 
 import com.oms.bean.Media;
+import com.oms.modules.abtractdata.controller.IDataManageController;
 import com.oms.modules.abtractdata.gui.ADataEditDialog;
 
-import abstractdata.IDataManageController;
+
 
 @SuppressWarnings("serial")
 public class MediaEditDialog extends ADataEditDialog<Media>{
