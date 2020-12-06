@@ -10,9 +10,7 @@ import com.oms.modules.media.book.gui.BookSinglePane;
 import com.oms.modules.media.controller.UserMediaPageController;
 import com.oms.modules.media.gui.MediaSearchPane;
 import com.oms.modules.media.gui.MediaSinglePane;
-
-import api.MediaApi;
-
+import com.oms.api.MediaApi;
 
 public class UserBookPageController extends UserMediaPageController{
 	public UserBookPageController() {
